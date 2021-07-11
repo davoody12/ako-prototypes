@@ -1,0 +1,46 @@
+{
+  "name": "ako-prototypes",
+  "version": "1.0.0",
+  "description": "Some Usefull Prototypes And Classes",
+  "main": "dist/ako-prototypes",
+  "scripts": {
+    "start": "webpack & set MIN=1 & webpack && cls && echo All Done! && echo Press Any Key To End Conversation ... && pause>nul"
+  },
+  "keywords": [
+    "prototype",
+    "js",
+    "class",
+    "linq",
+    "persian-date",
+    "timespan"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-runtime": "^6.22.0",
+    "webpack": "^2.3.3",
+    "webpack-cli": "^4.7.2"
+  },
+  "author": "Stranger Acquaintance",
+  "contributors": [
+    {
+      "name": "Omid Reza Zarei",
+      "email": "test@gmail.com"
+    },
+    {
+      "name": "Farhad Rad",
+      "email": "sir.stranger.aq@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "linq": "^3.2.3",
+    "persian-date": "^1.1.0"
+  }
+}
